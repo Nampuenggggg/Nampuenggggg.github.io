@@ -1,0 +1,98 @@
+<html>
+<head>
+<style>
+div.container {
+width: 100%;
+border: 1px solid gray;
+}
+
+header, footer {
+padding: 1em;
+color: rgb(5, 5, 5);
+background-color: rgb(91, 188, 253);
+clear: left;
+text-align: center;
+
+}
+
+nav {
+float: left;
+max-width: 160px;
+margin: 0;
+padding: 1em;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+
+}
+
+nav ul a {
+text-decoration: none;
+}
+
+article {
+margin-left: 270px;
+border-left: 2px solid rgb(5, 5, 5);
+padding: 1em;
+overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+    <font size = 8> <font face ="MN Namphrik Long Ruea">อัตลักษณ์และเอกลักษณ์</font></font>
+</header>
+    
+<nav>
+    <font face ="EucrosiaUPC"><font size = 5>
+        <a href="file:///D:/Thanapron023/index023.html">หน้าแรก</a><br>
+        <a href="file:///D:/Thanapron023/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%93%E0%B9%8C023.html">อัตลักษณ์</a><br>
+        <a href="file:///D:/Thanapron023/%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%8D%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%AA%E0%B8%B1%E0%B8%A2%E0%B8%97%E0%B8%B1%E0%B8%A8%E0%B8%99%E0%B9%8C%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%81%E0%B8%B4%E0%B8%88023.html">ปรัชญาวิสัยทัศน์พันธกิจ</a><br>
+        <a href="file:///D:/Thanapron023/%E0%B8%99%E0%B9%82%E0%B8%A2%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2023.html">นโยบายของวิทยาลัย</a><br>
+        <a href="รอลิงค์">ทำเนียม</a><br>
+        <a href="file:///D:/Thanapron023/resume_023.html">ผู้จัดทำ</a><br>
+        <a href="file:///D:/Thanapron023/FORM_023.html">ฟอร์ม</a><br>
+    </font>
+    </font>
+</nav>
+<article>
+<center>
+    <font face ="CherryThin"><font size = 8>อัตลักษณ์และเอกลักษณ์</font></font>
+
+<p>
+    <font face ="MN Ramen">
+    <font size = 5>
+    <b>อัตลักษณ์</b><br>
+        'ทักษะเยี่ยม เปี่ยมคุณธรรม'<br>
+        <center><img src="./air.png" width="700" > </center><br>
+        <center><img src="./088.png" width="700" > </center><br>
+        <br>
+    <b>เอกลักษณ์</b><br>
+        'มุ่งผลิตกำลังคน ที่มีสมรรถนะ และคุณภาพสู่สากล'<br>
+        <br>
+        <center><img src="./33.png" width="700" > </center><br>
+        <center><img src="./mec1.png" width="700" > </center><br>
+
+
+
+
+
+    </center>
+</font>
+
+</font>
+</p>
+
+
+</article>
+<footer><font face ="CherryThin"><font size = 5>นางสาวธนพร จันทะวัน สท.2/2 023</font></font></footer>
+
+</div>
+
+</body>
+</html>

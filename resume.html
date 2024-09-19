@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <style>
+    /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-image:url('./tatc2.png');
+    color: #050505;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-size: 1em;
+    color: #080808;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #f4a261;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+/* Services Section */
+.services {
+    background: #f7f7f7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-item {
+    margin: 20px 0;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #f4a261;
+    padding-left: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Footer */
+footer {
+    background: #fffafa;
+    color: #020202;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Basic border styling */
+.section {
+    border: 2px solid #f4a261; /* กำหนดสีและขนาดของกรอบ */
+    border-radius: 10px; /* เพิ่มมุมโค้งให้กับกรอบ */
+    padding: 20px; /* เพิ่มพื้นที่ภายในกรอบ */
+    margin-bottom: 30px; /* เพิ่มระยะห่างระหว่างกรอบ */
+    background-color: #fff; /* สีพื้นหลังเพื่อให้กรอบโดดเด่น */
+}
+
+/* Optional: Adding a shadow for a more pronounced effect */
+.section-shadow {
+    border: 2px solid #f4a261;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เงาของกรอบ */
+}
+
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <center><h1><img src = "./tatc.png"></h1></center>
+            <nav>
+                <ul>
+                    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* สีพื้นหลังของทั้งหน้า */
+}
+
+header {
+    background-color: #415841;
+    color: white;
+    padding: 15px;
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+}
+
+nav {
+    margin: 20px 0; /* ระยะห่างด้านบนและล่าง */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none; /* เอาเส้นใต้ลิ้งค์ออก */
+    color: #fff; /* สีข้อความ */
+    padding: 10px 20px; /* ระยะห่างภายในลิ้งค์ */
+    border: 2px solid transparent; /* กรอบแบบโปร่งใส */
+    border-radius: 25px; /* มุมโค้ง */
+    background-image: linear-gradient(45deg, #4CAF50, #66BB6A); /* พื้นหลังแบบไล่ระดับ */
+    transition: all 0.3s ease; /* เอฟเฟกต์การเปลี่ยน */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* เงาของกรอบ */
+}
+
+nav ul li a:hover {
+    background-color: #66BB6A; /* สีพื้นหลังเมื่อเลื่อนเมาส์ */
+    border: 2px solid #789478; /* เปลี่ยนกรอบให้ชัดเจน */
+    color: #fff; /* สีข้อความ */
+    transform: scale(1.05); /* ขยายเมื่อเลื่อนเมาส์ */
+}
+
+main {
+    max-width: 800px; /* กำหนดความกว้างสูงสุดของเนื้อหา */
+    margin: 20px auto; /* กึ่งกลางหน้าจอ */
+    padding: 20px;
+    border: 1px solid #ccc; /* กรอบ */
+    border-radius: 10px; /* มุมโค้ง */
+    background-color: #ffffff; /* สีพื้นหลังของกรอบ */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* เงาของกรอบ */
+}
+
+h1 {
+    
+    color: white; /* สีข้อความของหัวข้อ */
+    padding: 10px; /* ระยะห่างภายในหัวข้อ */
+    border-radius: 5px; /* มุมโค้ง */
+    text-align: center; /* จัดกลาง */
+    margin-top: 0; /* เอา margin ด้านบนออก */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc; /* กรอบ */
+    border-radius: 10px; /* มุมโค้ง */
+    margin: 20px auto; /* กึ่งกลาง */
+    max-width: 800px; /* ความกว้างสูงสุดให้เท่ากับ main */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เงาของกรอบ */
+}
+
+ul {
+    padding-left: 20px; /* ระยะห่างจากกรอบ */
+}
+
+table {
+    width: 100%; /* ให้ตารางเต็มความกว้าง */
+    border-collapse: collapse; /* รวมขอบของตาราง */
+}
+
+th, td {
+    border: 1px solid #ccc; /* ขอบของเซลล์ */
+    padding: 10px; /* ระยะห่างในเซลล์ */
+    text-align: left; /* จัดข้อความไปทางซ้าย */
+}
+
+th {
+    background-color: #f2f2f2; /* สีพื้นหลังของหัวตาราง */
+}
+
+
+                    </style>
+                    <li><a href="index.html">ประวัติความเป็นมา</a></li>
+                    <li><a href="ldentity.html">อัตลักษณ์</a></li>
+                    <li><a href="philosophy.html">ปรัชญาวิสัยทัศน์พันธกิจ</a></li>
+                    <li><a href="policy.html">นโยบาย</a></li>
+                    <li><a href="ทำเนียบผู้บริหาร.pdf">ทำเนียมผู้บริหาร</a></li>
+                    <li><a href="resume.html">ผู้จัดทำ</a></li>
+                    <li><a href="FORM.html">ฟอร์ม</a></li>
+                    <li><a href="ใบความรู้.pdf">ใบความรู้</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <footer>
+        <style>body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #611414; /* สีพื้นหลังของทั้งหน้า */
+        }
+        
+        header {
+            background-color: #9eaf9f;
+            color: white;
+            padding: 12px;
+            text-align: center; /* จัดข้อความให้อยู่กลาง */
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        main {
+            max-width: 1000px; /* กำหนดความกว้างสูงสุดของเนื้อหา */
+            margin: 20px auto; /* กึ่งกลางหน้าจอ */
+            padding: 20px;
+            border: 4px solid #641414; /* กรอบ */
+            border-radius: 10px; /* มุมโค้ง */
+            background-color: #6a89ca; /* สีพื้นหลังของกรอบ */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* เงาของกรอบ */
+        }
+        
+        h1 {
+           
+            color: white; /* สีข้อความของหัวข้อ */
+            padding: 10px; /* ระยะห่างภายในหัวข้อ */
+            border-radius: 5px; /* มุมโค้ง */
+            text-align: center; /* จัดกลาง */
+            margin-top: 0; /* เอา margin ด้านบนออก */
+        }
+        
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ffffff;
+            border: 1px solid #ffffff; /* กรอบ */
+            border-radius: 10px; /* มุมโค้ง */
+            margin: 20px auto; /* กึ่งกลาง */
+            max-width: 800px; /* ความกว้างสูงสุดให้เท่ากับ main */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เงาของกรอบ */
+        }
+        
+        ul {
+            padding-left: 30px; /* ระยะห่างจากกรอบ */
+        }
+        
+        table {
+            width: 100%; /* ให้ตารางเต็มความกว้าง */
+            border-collapse: collapse; /* รวมขอบของตาราง */
+        }
+        
+        th, td {
+            border: 1px solid #ccc; /* ขอบของเซลล์ */
+            padding: 10px; /* ระยะห่างในเซลล์ */
+            text-align: left; /* จัดข้อความไปทางซ้าย */
+        }
+        
+        th {
+            background-color: #f2f2f2; /* สีพื้นหลังของหัวตาราง */
+        }
+        </style>
+        <div class="container">
+
+<p>
+    <FONT FACE ="MN Namphrik Long Ruea"  > 
+        <FONT SIZE = "6">
+            <FONT color = #FF00FF>
+ <h1>ข้อมูลส่วนตัว</h1>
+</FONT>
+<canter><img src="./nampueng.png" height="300"> </canter><br>
+<br>
+   ชื่อ : นางสาวธนพร จันทะวัน<br>
+   ชื่อเล่น : น้ำผึ้ง    
+   อายุ : 16<br>
+   วันเกิด : 29/10/2550<br>
+   สีที่ชอบ : แดง<br>
+<hr>
+
+
+ข้อมูลด้านการศึกษา<br>
+
+อ.1-ป.6 ศึกษาที่ โรงเรียนเทศบาลแหลมฉบัง2 (มูลนิธิไต้ล้ง-เช็ง พรประภา)<br>
+ม.1-ม.3 ศึกษาที่ โรงเรียนเทศบาลแหลมฉบัง3<br>
+ปัจจุบัน ศึกษาที่ วิทยาลัยเทคนิคสัตหีบ<br>
+<hr>
+งานอดิเรก/สิ่งที่สนใจ<br>
+<br>
+เตะบอล <br>
+วาดรูป <br>
+ทำขนม <br>
+พับริบบิ้น <br>
+<hr>
+แรงบันดาลใจในการเรียนสาขา สท.<br>
+<br>
+อยากเรียนรู้เรื่องการเขียนโปรแกรม
+
+<hr>
+
+ผลงาน/เกียรติคุณ<br>
+<br>
+ป.3 แข่งประดิษฐ์สิ่งของ จากของเหลือใช้<br>
+ป.4 แข่งคัดลายมือ<br>
+ป.4 แข่งเปตอง<br>
+ป.4 แข่งวิ่ง 100 เมตร / 200 <br>
+ป.6 แข่งท่องบทอาขยาน<br>
+ป.6 แข่งพูดสุนทรพจน์<br>
+ป.6 แข่งวิ่ง 200 เมตร<br>
+ม.1 แข่งคณิตคิดเร็ว<br>
+ม.3 แข่งโครงงานภาษาไทย<br>
+
+
+</p>
+</FONT>
+</FONT>
+</article>
+
+
+</div>
+
+</body>
+</html>

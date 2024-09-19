@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>แบบฟอร์มสมัครสมาชิก</title>
+</head>
+<body>
+    <form action="check.php" method="post">
+        <caption><center>แบบฟอร์มสมัครสมาชิก</center></caption><br>
+        <table width="463" border="0" cellspacing="0" cellpadding="3" align="center">
+            <tr>
+                <td>ชื่อ</td>
+                <td></td>
+                <td><input type="text" name="firstname"></td>
+            </tr>
+            <tr>
+                <td>นามสกุล</td>
+                <td></td>
+                <td><input type="text" name="lastname"></td>
+            </tr>
+            <tr>
+                <td>ชื่อผู้ใช้งาน</td>
+                <td></td>
+                <td><input type="text" name="user"></td>
+            </tr>
+            <tr>
+                <td>รหัสผ่าน</td>
+                <td></td>
+                <td><input type="text" name="password"></td>
+            </tr>
+            <tr>
+                <td>เพศ</td>
+                    <td></td>
+                    <td><input type="radio" name="gender" value="male">ชาย
+                        <input type="radio" name="gender" value="female">หญิง</td>
+                </tr>
+                <tr>
+                    <td>อายุ</td>
+                    <td></td>
+                    <td><select name="age" size="1">
+                    <option value="1">1-10ปี</option>
+                    <option value="1">10-20</option>
+                    <option value="1">20-30</option>
+                    <option value="1">30-40</option>
+                    <option value="1">40-50</option>
+                    <option value="1">50-60</option>
+                    <option value="1">60ปีขึ้นไป</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>เงื่อนไข</td>
+                    <td></td>
+                    <td><input type="checkbox" name="conditions" value="yes">ข้าพเจ้ายอมรับและยินดีตามข้อตกลง
+                    </td>
+                </tr>
+                <tr>
+                <td colspan="3" align="center"><input type="submit" value="ตกลง"><input type="reset" value="ยกเลิก">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>  
+
+
